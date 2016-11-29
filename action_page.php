@@ -1,5 +1,5 @@
 <?php
-// PHP Script zum Abholden der Daten vom HVW-Server
+// PHP Script zum Abholen der Daten vom HVW-Server
 // http://www.handball4all.de/m/php/spo-proxy_ibm6.php?format=json&cmd=data&lvTypeNext=org&lvIDNext=3
 // 
 // print_r($_GET);
@@ -29,7 +29,7 @@ include ("./HVWData.php");
  		} else {
  			// Im Body steckt die Antwort
  			$result = $response->body;
- 			// Die Antwort vom HVW hat am Anfang und am Ende runde Klammern, die zunäcsht entfernt werden müssen
+ 			// Die Antwort vom HVW hat am Anfang und am Ende runde Klammern, die zunaecsht entfernt werden muessen
  			$result = substr($result, 1, -1);
  			// print_r ($result); echo "<br>";
 
