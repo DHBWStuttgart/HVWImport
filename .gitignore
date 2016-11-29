@@ -9,6 +9,7 @@
 *.tmp.*
 *.buildpath
 *.project
+*.lock
 log.txt
 *.sublime-project
 *.sublime-workspace
@@ -16,3 +17,5 @@ log.txt
 npm-debug.log*
 
 org.eclipse.*
+version.ini
+repositories.xml.zip
