@@ -1,2 +1,21 @@
-.buildpath
-.project
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+*.suo
+*.log
+*.tmp
+*.tmp.*
+*.buildpath
+*.project
+*.lock
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+npm-debug.log*
+
+# org.eclipse.*
+version.ini
+repositories.xml.zip

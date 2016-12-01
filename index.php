@@ -9,7 +9,7 @@
 
 <H1>Datenimport vom Handball4All-Restservice</H1>
 
-Server: 
+Server: <?php include ("./HVWData.php"); echo " ".\HVWData\HVWInfrastructure::$Server . "<br>"?>
 
 <form action="action_page.php" method="get"> 
  Zusaetzliche Parameter: <br>
